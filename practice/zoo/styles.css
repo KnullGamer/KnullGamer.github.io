@@ -1,0 +1,15 @@
+header{
+background-color:rgb(245, 242, 232);
+color:black;
+}
+body{
+background-color:rgb(255, 242, 232);
+color:black;
+}
+footer{
+background-color:rgb(255, 252, 232);
+}
+table, th, tr, td{
+border: 1px black solid;
+border-collapse: collapse;
+}
