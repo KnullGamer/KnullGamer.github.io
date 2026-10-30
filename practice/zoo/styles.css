@@ -20,4 +20,13 @@ ul{
         margin:0;
         justify-content:space-evenly;
 }    
-
+  a{
+            background-color: skyblue;
+            padding:15px;
+            border:2px black solid;
+            text-decoration:none;
+                
+    }
+    a:hover{
+        color: Cyan;
+    }
