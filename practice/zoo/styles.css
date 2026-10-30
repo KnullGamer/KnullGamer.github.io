@@ -12,5 +12,12 @@ background-color:rgb(245, 242, 232);
 table, th, tr, td{
 border: 1px black solid;
 border-collapse: collapse;
-}
+ul{
+         display:flex ;
+        flex-direction:row;
+        list-style: none;
+        padding:0;
+        margin:0;
+        justify-content:space-evenly;
+}    
 
