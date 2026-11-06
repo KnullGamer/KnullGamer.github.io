@@ -90,13 +90,34 @@
             background-color: rgb(255, 82, 0);
             clip-path: polygon(100% 50%,90.45% 79.39%,65.45% 97.55%,34.55% 97.55%,9.55% 79.39%,0% 50%,9.55% 20.61%,34.55% 2.45%,65.45% 2.45%,90.45% 20.61%);
             }         
-            .reeses {
+            .tri-angle1 {
             grid-column:3;
             grid-row:1;
-            width: 200px;
-            aspect-ratio: 1;
-            background-color:black;
-            XX
+            /* HTML: <div class="hexagon"></div> */
+            height: 200px; /* adjust to control the size  */
+            aspect-ratio: 1/cos(30deg);
+            clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
+            background: brown;
+            }
+             .tri-angle2 {
+           grid-column:3;
+          grid-row:3;
+       /* HTML: <div class="hexagon"></div> */
+     height: 200px; /* adjust to control the size  */
+        aspect-ratio: 1/cos(30deg);
+        clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
+            background: brown;
+            }
+ .tri-angle3 {
+           grid-column:1;
+          grid-row:1;
+       /* HTML: <div class="hexagon"></div> */
+     height: 200px; /* adjust to control the size  */
+        aspect-ratio: 1/cos(30deg);
+        clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
+            background: brown;
+            }
+
             .hershey{
             grid-column-start: 2;
             grid-column-end: 3;
@@ -119,6 +140,9 @@
             <div class="reeses3"></div>
             <div class="reeses4"></div>
             <div class="hershey"></div>
+            <div class="tri-angle1"></div>
+            <div class="tri-angle2"></div>
+            <div class="tri-angle3"></div>
                 <!-- TODO: Add some more divs here, and style them
                     to fill in the 'lilbits' part of the chocolate box -->
             </div>
