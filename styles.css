@@ -1,0 +1,47 @@
+
+        table, tr, th, td{
+            border: 1px black solid;
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+        .orange{
+            background-color: orange;
+        }
+        header{
+            border: 5px black solid;
+            margin: 20px;
+            margin-left: 0px;
+            padding: 100px;
+        }
+        header{
+background-color:rgb(245, 242, 232);
+color:black;
+font-family: 'Atkinson Hyperlegible', Verdana, sans-serif;
+}
+body{
+background-color:rgb(245, 242, 232);
+color:black;
+font-family: 'Atkinson Hyperlegible', Verdana, sans-serif;
+}
+footer{
+background-color:rgb(245, 242, 232);
+font-family: 'Atkinson Hyperlegible', Verdana, sans-serif;
+}
+        ul{
+         display:flex ;
+        flex-direction:row;
+        list-style: none;
+        padding:0;
+        margin:0;
+        justify-content:space-evenly;
+    }    
+        a{
+            background-color: cyan;
+            padding:15px;
+            border:2px black solid;
+            text-decoration:none;
+                
+    }
+    a:hover{
+        color: black;
+    }
