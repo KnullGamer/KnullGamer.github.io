@@ -65,4 +65,23 @@ nav a { text-decoration: none; color: inherit; }
     padding: 10px;
     border: 1px Navy;
 }
+body {
+  /* 1. Path to your image file */
+  background-image: url("images/grasshopper.png");
+
+  /* 2. Prevent the image from repeating/tiling */
+  background-repeat: no-repeat;
+
+  /* 3. Scale the image to fill the entire container */
+  background-size: cover;
+
+  /* 4. Center the image horizontally and vertically */
+  background-position: center;
+
+  /* 5. Optional: Keep the image fixed in place while scrolling */
+  background-attachment: fixed;
+
+  /* 6. Fallback color if the image fails to load */
+  background-color: #222222;
+}
 
