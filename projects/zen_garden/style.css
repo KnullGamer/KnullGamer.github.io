@@ -21,7 +21,7 @@ header{
     color:black;
     font-family: 'Atkinson Hyperlegible', Verdana, sans-serif;
 }
-    body{
+body{
     background-color:rgb(245, 242, 232);
     color:black;
     font-family: 'Atkinson Hyperlegible', Verdana, sans-serif;
@@ -30,3 +30,23 @@ header{
     background-color:rgb(245, 242, 232);
     font-family: 'Atkinson Hyperlegible', Verdana, sans-serif;
 }
+ul{
+    display:flex ;
+    flex-direction:row;
+    list-style: none;
+    padding:0;
+    margin:0;
+    justify-content:space-evenly;
+}
+a{
+    background-color: Navy;
+    padding:10px;
+    border:2px black solid;
+    text-decoration:none;
+}
+a:hover{
+    color: black;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+nav { display: flex; gap: 1rem; }
+nav a { text-decoration: none; color: inherit; }
