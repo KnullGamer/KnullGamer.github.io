@@ -52,3 +52,11 @@ a:hover{
 * { box-sizing: border-box; margin: 0; padding: 0; }
 nav { display: flex; gap: 1rem; }
 nav a { text-decoration: none; color: inherit; }
+.submenu {
+    display: none;
+}
+
+.menu-item:hover .submenu,
+.menu-item:focus-within .submenu {
+    display: block;
+}
